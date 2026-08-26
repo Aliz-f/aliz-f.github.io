@@ -10154,8 +10154,9 @@ button:focus-visible {
 /* Professional profile */
 .ftco-about .profile-portrait {
   width: 100%;
-  max-width: 360px;
-  height: 460px;
+  max-width: 340px;
+  height: auto;
+  aspect-ratio: 3 / 4;
   min-height: 0;
   margin: 0 auto;
   overflow: hidden;
@@ -10225,8 +10226,8 @@ button:focus-visible {
 
 @media (max-width: 767.98px) {
   .ftco-about .profile-portrait {
-    max-width: 300px;
-    height: 380px;
+    max-width: 280px;
+    height: auto;
     min-height: 0;
     margin-bottom: 40px; }
   .ftco-about .heading-section h2 {
@@ -10241,3 +10242,70 @@ button:focus-visible {
     border-bottom: 1px solid var(--portfolio-line); }
   .profile-fact:last-child {
     border-bottom: 0; } }
+
+/* Tablet layout: avoid compressed desktop columns */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .ftco-about .col-md-5,
+  .ftco-about .col-md-7 {
+    flex: 0 0 100%;
+    max-width: 100%; }
+  .ftco-about .profile-portrait {
+    max-width: 320px;
+    margin-bottom: 42px; }
+  .ftco-about .col-md-7 {
+    padding-left: 15px !important; }
+  .goto-here > .container > .row > .col-md-3,
+  .goto-here > .container > .row > .col-md-9 {
+    flex: 0 0 100%;
+    max-width: 100%; }
+  #navi {
+    position: static;
+    margin-bottom: 38px; }
+  #navi ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0; }
+  #navi li {
+    margin: 0; }
+  #navi li a {
+    display: block;
+    padding: 8px 12px;
+    border: 1px solid var(--portfolio-line);
+    border-radius: 999px;
+    background: #fff;
+    font-size: 13px; }
+  #services-section .col-md-4,
+  .ftco-project .col-md-4 {
+    flex: 0 0 50%;
+    max-width: 50%; }
+  #services-section .col-md-4:last-child,
+  .ftco-project .col-md-4:last-child {
+    flex: 0 0 100%;
+    max-width: 100%; }
+  .services-1 {
+    padding: 34px 26px; }
+  .ftco-project .project {
+    min-height: 480px; }
+  .ftco-footer .row > .col-md {
+    flex: 0 0 50%;
+    max-width: 50%; } }
+
+/* Small phones */
+@media (max-width: 374.98px) {
+  .slider-text h1 {
+    font-size: 41px; }
+  .hero-wrap .hero-title {
+    font-size: 26px; }
+  .hero-wrap .hero-summary {
+    font-size: 15px; }
+  .slider-text .subheading {
+    padding: 6px 9px;
+    font-size: 10px;
+    letter-spacing: .08em; }
+  .profile-facts {
+    margin-right: -2px;
+    margin-left: -2px; }
+  .contact-section .box {
+    padding-right: 16px !important;
+    padding-left: 16px !important; } }
