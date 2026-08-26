@@ -9675,3 +9675,569 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+/* Portfolio-focused presentation */
+.hero-wrap .hero-title {
+  max-width: 850px;
+  margin: 0 auto;
+  font-size: 36px;
+  line-height: 1.25;
+  text-decoration: none; }
+
+.hero-wrap .hero-summary {
+  max-width: 720px;
+  margin: 22px auto 8px;
+  color: #4d4d4d;
+  font-size: 18px;
+  font-weight: 400; }
+
+.hero-wrap .hero-availability {
+  margin: 0 auto;
+  color: #696969;
+  font-size: 15px;
+  font-weight: 600; }
+
+.hero-actions .btn-outline-primary {
+  border-color: #696969;
+  color: #333; }
+
+.hero-actions .btn-outline-primary:hover {
+  background: #696969;
+  color: #fff; }
+
+.legacy-skills {
+  display: none; }
+
+.skill-group {
+  height: 100%;
+  padding: 26px;
+  border-top: 3px solid #696969;
+  background: #fff; }
+
+.skill-group h3 {
+  margin-bottom: 12px;
+  font-size: 18px;
+  font-weight: 600; }
+
+.skill-group p {
+  margin-bottom: 0;
+  line-height: 1.9; }
+
+.skill-group-learning {
+  border-top-color: #f96d00; }
+
+.skill-status {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 3px 7px;
+  border-radius: 10px;
+  background: #f3f3f3;
+  color: #666;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  vertical-align: middle; }
+
+.ftco-project .project {
+  min-height: 440px;
+  background-position: center; }
+
+.ftco-project .project .overlay {
+  opacity: .82;
+  background: #202020; }
+
+.ftco-project .project .text {
+  max-width: 88%;
+  opacity: 1; }
+
+.ftco-project .project .text h3 {
+  margin-bottom: 18px; }
+
+.ftco-project .project .text h3 a,
+.ftco-project .project .text h3 {
+  color: #fff; }
+
+.ftco-project .project .text p {
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, .9);
+  font-size: 14px;
+  line-height: 1.55; }
+
+.ftco-project .project .text span {
+  display: block;
+  margin-top: 18px;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid #f96d00;
+  outline-offset: 3px; }
+
+@media (max-width: 767.98px) {
+  .hero-wrap .hero-title {
+    font-size: 26px; }
+  .hero-wrap .hero-summary {
+    font-size: 16px; }
+  .hero-actions .btn {
+    display: block;
+    width: 100%;
+    margin: 10px 0 !important; }
+  .ftco-project .project {
+    min-height: 500px; } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important; } }
+
+/* 2026 remote-career visual refresh */
+:root {
+  --portfolio-ink: #0f172a;
+  --portfolio-muted: #526071;
+  --portfolio-surface: #ffffff;
+  --portfolio-soft: #f7f9fc;
+  --portfolio-line: #e2e8f0;
+  --portfolio-accent: #2563eb;
+  --portfolio-accent-dark: #1d4ed8; }
+
+body {
+  color: var(--portfolio-ink);
+  background: var(--portfolio-surface);
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  letter-spacing: -.006em; }
+
+h1, h2, h3, h4, h5, h6,
+.navbar-brand,
+.btn {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--portfolio-ink); }
+
+a {
+  color: var(--portfolio-accent); }
+
+a:hover {
+  color: var(--portfolio-accent-dark); }
+
+.ftco-animate {
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: none !important; }
+
+.ftco_navbar {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background: rgba(255, 255, 255, .94) !important;
+  border-bottom: 1px solid rgba(228, 233, 240, .8);
+  backdrop-filter: blur(14px); }
+
+.ftco-navbar-light .navbar-brand,
+.ftco-navbar-light.scrolled .navbar-brand {
+  color: var(--portfolio-ink) !important; }
+
+.ftco-navbar-light .navbar-brand span {
+  background: transparent; }
+
+.navbar-brand:after {
+  background: var(--portfolio-accent); }
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link,
+.ftco-navbar-light.scrolled .nav-item > .nav-link {
+  color: #475569 !important;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -.01em; }
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover,
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link.active {
+  color: var(--portfolio-accent) !important; }
+
+.hero-wrap {
+  min-height: 720px;
+  background:
+    radial-gradient(circle at 78% 28%, rgba(37, 99, 235, .11), transparent 30%),
+    radial-gradient(circle at 14% 72%, rgba(14, 165, 233, .06), transparent 30%),
+    #f9fbff; }
+
+.hero-wrap .overlay {
+  display: none; }
+
+.hero-wrap .slider-text > [class*="col-"] {
+  flex: 0 0 100%;
+  max-width: 100%; }
+
+.hero-wrap .slider-text .text {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left !important; }
+
+.slider-text .subheading {
+  display: inline-flex;
+  padding: 7px 12px;
+  border: 1px solid #bfdbfe;
+  border-radius: 999px;
+  background: #eff6ff;
+  color: var(--portfolio-accent-dark);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.2px; }
+
+.slider-text h1 {
+  margin-top: 20px;
+  color: var(--portfolio-ink);
+  font-size: clamp(48px, 7vw, 78px);
+  line-height: 1.05;
+  font-weight: 800;
+  letter-spacing: -.04em; }
+
+.hero-wrap .hero-title {
+  max-width: 820px;
+  margin: 18px 0 0;
+  color: #334155;
+  font-size: clamp(28px, 4vw, 43px);
+  font-weight: 600;
+  letter-spacing: -.025em; }
+
+.hero-wrap .hero-summary {
+  max-width: 680px;
+  margin: 24px 0 10px;
+  color: var(--portfolio-muted);
+  font-size: 18px; }
+
+.hero-wrap .hero-availability {
+  margin: 0;
+  color: #334155;
+  font-size: 14px; }
+
+.btn.btn-primary {
+  border-color: var(--portfolio-accent) !important;
+  background: var(--portfolio-accent) !important;
+  color: #fff !important;
+  box-shadow: 0 8px 20px rgba(37, 99, 235, .2); }
+
+.btn.btn-primary:hover {
+  border-color: var(--portfolio-accent-dark) !important;
+  background: var(--portfolio-accent-dark) !important;
+  transform: translateY(-1px); }
+
+.hero-actions .btn-outline-primary,
+.about-actions .btn-outline-primary {
+  border-color: #cbd5e1;
+  background: #fff;
+  color: var(--portfolio-ink); }
+
+.hero-actions .btn-outline-primary:hover,
+.about-actions .btn-outline-primary:hover {
+  border-color: var(--portfolio-ink);
+  background: var(--portfolio-ink);
+  color: #fff; }
+
+.ftco-section {
+  padding-top: 7em;
+  padding-bottom: 7em; }
+
+.heading-section .big,
+.heading-section .big-2 {
+  display: none; }
+
+.heading-section h2,
+.page .heading {
+  color: var(--portfolio-ink);
+  font-weight: 700;
+  letter-spacing: -.035em; }
+
+.heading-section h2 {
+  font-size: clamp(32px, 4vw, 44px); }
+
+.heading-section > p,
+#services-section .heading-section p,
+.ftco-project .heading-section p {
+  color: var(--portfolio-muted); }
+
+.ftco-about {
+  padding-top: 9em !important;
+  padding-bottom: 6em !important; }
+
+.ftco-about .img-about .img {
+  border-radius: 18px;
+  box-shadow: 0 24px 55px rgba(17, 24, 39, .14); }
+
+.ftco-about .heading-section p {
+  color: var(--portfolio-muted);
+  line-height: 1.85; }
+
+.resume-wrap {
+  margin-bottom: 24px;
+  padding: 26px;
+  border: 1px solid var(--portfolio-line);
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 8px 26px rgba(17, 24, 39, .045); }
+
+.resume-wrap .icon {
+  flex: 0 0 50px;
+  width: 50px;
+  height: 50px;
+  background: var(--portfolio-ink); }
+
+.resume-wrap .date {
+  color: var(--portfolio-accent-dark);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: .04em; }
+
+.resume-wrap h2 {
+  color: var(--portfolio-ink);
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -.02em; }
+
+.resume-wrap .position {
+  color: #475569;
+  font-weight: 600; }
+
+.resume-wrap p {
+  color: var(--portfolio-muted); }
+
+.skill-group {
+  border: 1px solid var(--portfolio-line);
+  border-top: 3px solid var(--portfolio-ink);
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(17, 24, 39, .045) !important; }
+
+.skill-group-learning {
+  border-top-color: var(--portfolio-accent); }
+
+.skill-group h3 {
+  color: var(--portfolio-ink);
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: -.015em; }
+
+#services-section {
+  background: var(--portfolio-soft); }
+
+#services-section .container-fluid {
+  max-width: 1200px; }
+
+.services-1 {
+  padding: 40px 32px;
+  border: 1px solid var(--portfolio-line);
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 10px 28px rgba(17, 24, 39, .055) !important;
+  transition: transform .25s ease, box-shadow .25s ease; }
+
+.services-1:hover {
+  background: #fff;
+  transform: translateY(-5px);
+  box-shadow: 0 18px 38px rgba(17, 24, 39, .1) !important; }
+
+.services-1 .icon i,
+.services-1:hover .icon i {
+  color: var(--portfolio-accent); }
+
+.services-1 .desc h3,
+.services-1:hover h3 {
+  color: var(--portfolio-ink);
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: .04em; }
+
+.services-1 .desc h3:after,
+.services-1:hover h3:after {
+  background: var(--portfolio-accent); }
+
+.services-1 .desc p,
+.services-1:hover .desc p {
+  color: var(--portfolio-muted); }
+
+.ftco-project .container-fluid {
+  max-width: 1400px;
+  padding-right: 24px !important;
+  padding-left: 24px !important; }
+
+.ftco-project .row.no-gutters > [class*="col-"] {
+  padding: 8px; }
+
+.ftco-project .project {
+  overflow: hidden;
+  min-height: 460px;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(17, 24, 39, .12); }
+
+.ftco-project .project .overlay {
+  background: linear-gradient(180deg, rgba(15, 23, 42, .48), rgba(15, 23, 42, .96)); }
+
+.ftco-project .project .text h3 {
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: -.02em; }
+
+.ftco-project .project .text p {
+  color: rgba(241, 245, 249, .9); }
+
+.ftco-hireme {
+  background-position: center 35%; }
+
+.ftco-hireme h2 span {
+  color: #93c5fd; }
+
+.contact-section .box {
+  border: 1px solid var(--portfolio-line);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(17, 24, 39, .05) !important; }
+
+.contact-section .box .icon {
+  background: var(--portfolio-ink); }
+
+.ftco-footer {
+  background: #0b1120; }
+
+.btn {
+  font-weight: 700;
+  letter-spacing: .045em; }
+
+a:focus-visible,
+button:focus-visible {
+  outline-color: #60a5fa; }
+
+@media (max-width: 991.98px) {
+  .ftco_navbar {
+    background: #fff !important; }
+  .ftco-navbar-light .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px; }
+  .ftco-navbar-light .navbar-toggler,
+  .ftco-navbar-light .navbar-toggler:hover,
+  .ftco-navbar-light .navbar-toggler:focus {
+    color: var(--portfolio-ink) !important; }
+  .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+    color: var(--portfolio-ink) !important; }
+  .hero-wrap {
+    min-height: 680px; }
+  }
+
+@media (max-width: 767.98px) {
+  .hero-wrap .slider-text .text {
+    padding: 110px 0 80px; }
+  .slider-text h1 {
+    font-size: 48px; }
+  .hero-wrap .hero-title {
+    font-size: 29px; }
+  .ftco-about {
+    padding-top: 7em !important; }
+  .ftco-about .img-about {
+    min-height: 480px; }
+  .resume-wrap {
+    padding: 20px 16px; }
+  .resume-wrap .icon {
+    display: none !important; }
+  .resume-wrap .text {
+    padding-left: 0 !important; }
+  .about-actions .btn {
+    display: block;
+    width: 100%;
+    margin: 10px 0 !important; } }
+
+/* Professional profile */
+.ftco-about .profile-portrait {
+  width: 100%;
+  max-width: 360px;
+  height: 460px;
+  min-height: 0;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 1px solid var(--portfolio-line);
+  border-radius: 18px;
+  box-shadow: 0 20px 50px rgba(15, 23, 42, .13); }
+
+.ftco-about .profile-portrait img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+  object-fit: cover;
+  object-position: center 28%; }
+
+.profile-kicker {
+  display: block;
+  margin-bottom: 12px;
+  color: var(--portfolio-accent-dark);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase; }
+
+.ftco-about .heading-section h2 {
+  max-width: 720px;
+  font-size: clamp(30px, 3.4vw, 42px);
+  line-height: 1.18; }
+
+.profile-facts {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  overflow: hidden;
+  border: 1px solid var(--portfolio-line);
+  border-radius: 12px;
+  background: var(--portfolio-soft); }
+
+.profile-fact {
+  min-height: 92px;
+  padding: 18px 20px;
+  border-right: 1px solid var(--portfolio-line);
+  border-bottom: 1px solid var(--portfolio-line); }
+
+.profile-fact:nth-child(2n) {
+  border-right: 0; }
+
+.profile-fact:nth-last-child(-n+2) {
+  border-bottom: 0; }
+
+.profile-fact span,
+.profile-fact strong {
+  display: block; }
+
+.profile-fact span {
+  margin-bottom: 5px;
+  color: #64748b;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase; }
+
+.profile-fact strong {
+  color: var(--portfolio-ink);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.45; }
+
+@media (max-width: 767.98px) {
+  .ftco-about .profile-portrait {
+    max-width: 300px;
+    height: 380px;
+    min-height: 0;
+    margin-bottom: 40px; }
+  .ftco-about .heading-section h2 {
+    font-size: 30px; }
+  .profile-facts {
+    grid-template-columns: 1fr; }
+  .profile-fact,
+  .profile-fact:nth-child(2n),
+  .profile-fact:nth-last-child(-n+2) {
+    min-height: auto;
+    border-right: 0;
+    border-bottom: 1px solid var(--portfolio-line); }
+  .profile-fact:last-child {
+    border-bottom: 0; } }
