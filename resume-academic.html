@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alireza Fadaei | Academic CV — Software Engineer &amp; Researcher</title>
+    <style>
+        :root { color-scheme: light; --ink: #202124; --muted: #5f6368; --line: #d9dce1; --accent: #555; }
+        * { box-sizing: border-box; }
+        body { margin: 0; background: #f4f5f7; color: var(--ink); font: 15px/1.55 Arial, sans-serif; }
+        main { width: min(940px, calc(100% - 32px)); margin: 32px auto; padding: 48px 56px; background: #fff; box-shadow: 0 8px 30px rgba(0,0,0,.08); }
+        header { display: flex; justify-content: space-between; gap: 30px; border-bottom: 3px solid var(--ink); padding-bottom: 22px; }
+        h1 { margin: 0 0 6px; font-size: 34px; }
+        h2 { margin: 28px 0 14px; border-bottom: 1px solid var(--line); padding-bottom: 6px; font-size: 19px; text-transform: uppercase; letter-spacing: .08em; }
+        h3 { margin: 0; font-size: 16px; }
+        p { margin: 5px 0; }
+        a { color: inherit; }
+        .headline, .meta, .date, .tech { color: var(--muted); }
+        .contact { text-align: right; flex-shrink: 0; }
+        .entry { display: grid; grid-template-columns: 125px 1fr; gap: 18px; margin: 0 0 17px; break-inside: avoid; }
+        .entry ul { margin: 5px 0 0; padding-left: 18px; }
+        .skills { display: grid; grid-template-columns: 165px 1fr; gap: 8px 18px; }
+        .actions { position: fixed; right: 22px; bottom: 22px; }
+        .actions button { border: 0; border-radius: 4px; padding: 12px 18px; background: var(--ink); color: #fff; cursor: pointer; }
+        @media (max-width: 650px) {
+            main { width: 100%; margin: 0; padding: 28px 22px; box-shadow: none; }
+            header { display: block; }
+            .contact { margin-top: 14px; text-align: left; }
+            .entry { grid-template-columns: 1fr; gap: 2px; }
+            .skills { grid-template-columns: 1fr; }
+        }
+        .project-entry { margin-bottom: 8px; break-inside: avoid; }
+        @media print {
+            @page { size: A4; margin: 13mm; }
+            body { background: #fff; font-size: 10.5pt; line-height: 1.4; }
+            main { width: 100%; margin: 0; padding: 0; box-shadow: none; }
+            .actions { display: none; }
+            .teaching-section { break-before: page; }
+            h2 { margin: 14px 0 10px; break-after: avoid; }
+            .entry { margin-bottom: 10px; }
+            .skills { gap: 5px 18px; }
+            header { padding-bottom: 14px; }
+            a { text-decoration: none; }
+        }
+    </style>
+</head>
+<body>
+<main>
+    <header>
+        <div>
+            <h1>Alireza Fadaei</h1>
+            <p class="headline">Software Engineer · Applied AI &amp; Security Researcher</p>
+            <p class="tech">M.Sc. Student, Software Engineering and Information Systems<br>University of Oulu</p>
+            <p>Based in Oulu, Finland · Open to on-site, hybrid &amp; remote research and engineering opportunities</p>
+        </div>
+        <div class="contact">
+            <p><a href="mailto:alizfadaei98@gmail.com">alizfadaei98@gmail.com</a></p>
+            <p><a href="https://arfadaei.ir">arfadaei.ir</a> · <a href="https://github.com/aliz-f">GitHub</a></p>
+            <p><a href="https://www.linkedin.com/in/aliz-f/">LinkedIn</a></p>
+            <p><a href="https://orcid.org/0009-0007-1187-7288">ORCID: 0009-0007-1187-7288</a></p>
+        </div>
+    </header>
+
+    <section>
+        <h2>Research Profile</h2>
+        <p>Software engineer and researcher working at the intersection of distributed machine learning, cybersecurity, and reliable software systems. My research includes federated learning and intrusion detection for distributed and resource-constrained environments, supported by practical experience in backend engineering, infrastructure, and research software.</p>
+    </section>
+    <section>
+        <h2>Research Interests</h2>
+        <p>Federated and distributed machine learning · Intrusion detection · Cybersecurity · Privacy-sensitive systems · Reliable AI-enabled software · Research software</p>
+    </section>
+    <section>
+        <h2>Education</h2>
+        <div class="entry"><div class="date">2026–Present</div><div><h3>M.Sc. Software Engineering and Information Systems</h3><p>University of Oulu · Oulu, Finland</p><p>Building on my previous M.Sc. in Software Engineering, the programme extends my expertise in advanced software engineering, software quality, AI-enabled systems, and human-centred information systems.</p></div></div>
+        <div class="entry"><div class="date">2022–2025</div><div><h3>M.Sc. Software Engineering</h3><p>Islamic Azad University, Najafabad Branch · Top student</p><p>Thesis: An Optimized Federated Deep Learning Approach for Intrusion Detection in Dew Computing Environments</p></div></div>
+        <div class="entry"><div class="date">2017–2022</div><div><h3>B.Sc. Computer Engineering</h3><p>University of Isfahan · Best B.Sc. Thesis Award</p><p>Thesis: Design and Implementation of an ADS-B-Based Aircraft Observation System</p></div></div>
+    </section>    <section>
+        <h2>Publications</h2>
+        <div class="entry"><div class="date">2026</div><div><h3>A Novel Intrusion Detection System for Dew Computing Environments Based on an Enhanced Federated Deep Learning Model</h3><p>Alireza Fadaei, Behrang Barekatain · <em>The Journal of Supercomputing</em>, 2026 · Published February 16, 2026 · <a href="https://doi.org/10.1007/s11227-026-08314-x">DOI: 10.1007/s11227-026-08314-x</a></p><p>Proposed a lightweight CNN-based intrusion-detection approach integrated with federated learning for resource-constrained dew computing environments, without centralising sensitive data.</p><p><a href="https://link.springer.com/article/10.1007/s11227-026-08314-x">View publication (Springer)</a></p></div></div>
+    </section>    <section>
+        <h2>Research Projects</h2>
+        <div class="project-entry"><h3><a href="https://github.com/Aliz-f/edge-web-attack-detection-federated">Federated Web Attack Detection</a></h3><p>Implemented a lightweight 1D-CNN with Flower for distributed intrusion detection; evaluated under IID and non-IID data distributions.</p></div>
+        <div class="project-entry"><h3><a href="https://brassica.arfadaei.ir">BrassicaLNC Research Database</a></h3><p>Built the database and backend, administered the server, and organised data from 2,361 publicly available RNA-Seq libraries.</p></div>
+        <div class="project-entry"><h3>ADS-B Aircraft Observation Station</h3><p>Designed and implemented a system to capture, process, and present real-time aircraft data; received the Best B.Sc. Thesis Award.</p></div>
+    </section>
+    <section>
+        <h2>Professional Experience</h2>
+        <div class="entry"><div class="date">2026</div><div><h3>Software Engineer · Aminyx (Remote)</h3><p>Built agentic AI features for automated sourcing, multi-layered trust-scoring systems, and secure infrastructure for B2B smart contracts and international trade workflows, contributing to a modular AI-powered SaaS platform for global trade.</p></div></div>
+        <div class="entry"><div class="date">2022–2024</div><div><h3>Software Developer · Fardaad (ISTT)</h3><p>Built backend functionality for vulnerability and patch-management tools developed for municipal and government network environments. Improved backend algorithms supporting patch deployment workflows and collaborated through Git-based development and cross-functional review.</p></div></div>
+        <div class="entry"><div class="date">2021–2022</div><div><h3>Backend Developer &amp; Server Administrator · BrassicaLNC</h3><p>Built the backend and administered a research-data platform organising data from 2,361 publicly available RNA-Seq libraries.</p></div></div>
+        <div class="entry"><div class="date">2021–2022</div><div><h3>Backend Developer &amp; Server Administrator · MetaMenu</h3><p>Developed backend features and administered infrastructure for a cloud-based restaurant platform spanning interactive AR menus, ordering, delivery, and accounting workflows within an agile startup team.</p></div></div>
+        <div class="entry"><div class="date">2021–2022</div><div><h3>Backend Developer · Piranest Team</h3><p>Developed marketplace backend functionality connecting travellers with local tour guides and supporting tour reservations.</p></div></div>
+        <div class="entry"><div class="date">2020</div><div><h3>Flask Developer · Fapsco Project</h3><p>Developed and maintained Flask-based website features and internal tools, supporting stable client-facing services and day-to-day business workflows.</p></div></div>
+    </section>
+    <section class="teaching-section">
+        <h2>Teaching &amp; Leadership</h2>
+        <div class="entry"><div class="date">2024–2026</div><div><h3>Programming Instructor · Iran TVTO</h3><p>Delivered programming and software-development training through hands-on, industry-aligned projects in official vocational programmes.</p></div></div>
+        <div class="entry"><div class="date">2024–2026</div><div><h3>Chair, Computer Department · Kabir Technical and Vocational School</h3><p>Led the department team and developed curricula in programming, network security, and machine learning.</p></div></div>
+
+    </section>
+    <section>
+        <h2>Technical Skills</h2>
+        <div class="skills">
+            <strong>Software &amp; Backend</strong><span>Python · Node.js · Django · Flask · FastAPI · REST APIs</span>
+            <strong>Machine Learning</strong><span>TensorFlow · Scikit-learn · Pandas · NumPy · Federated Learning · CNNs</span>
+            <strong>Data &amp; Infrastructure</strong><span>PostgreSQL · Redis · Neo4j · Docker · Nginx · Linux</span>
+            <strong>Security</strong><span>Intrusion Detection · Vulnerability Management · AI Security · IoT Security</span>
+            <strong>Research / Engineering Practices</strong><span>Git · Technical Documentation · API Design · Code Review</span>
+        </div>
+    </section>
+    <section>
+        <h2>Languages</h2>
+        <p><strong>English:</strong> Professional working proficiency · IELTS Academic: Overall 7.5, March 2025</p>
+    </section></main>
+<div class="actions"><button type="button" onclick="window.print()">Print / Save as PDF</button></div>
+</body>
+</html>

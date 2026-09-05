@@ -10309,3 +10309,44 @@ button:focus-visible {
   .contact-section .box {
     padding-right: 16px !important;
     padding-left: 16px !important; } }
+
+/* Hero: reserve navigation clearance without fixed viewport heights. */
+#home-section {
+  height: auto;
+  min-height: 100svh;
+  padding: max(110px, calc(110px + (100svh - 680px) * .35)) 0 64px;
+}
+#home-section .slider-text { height: auto; }
+#home-section .slider-text .text {
+  max-width: 1140px;
+  padding: 0;
+}
+#home-section .hero-title {
+  max-width: none;
+  font-size: clamp(29px, 2.7vw, 40px);
+  text-wrap: balance;
+}
+#home-section .hero-summary { max-width: 800px; }
+#home-section .subheading { max-width: 100%; }
+#home-section .hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+#home-section .hero-actions .btn { margin: 0 !important; }
+@media (max-width: 991.98px) {
+  #home-section {
+    min-height: calc(100svh - 100px);
+    padding: 32px 0 48px;
+  }
+}
+@media (max-width: 767.98px) {
+  #home-section { padding: 20px 0 36px; }
+  #home-section .hero-title { font-size: 29px; }
+  #home-section .hero-summary { margin-top: 18px; }
+  #home-section .hero-actions { flex-direction: column; }
+  #home-section .hero-actions .btn { width: 100%; }
+}
+@media (max-width: 374.98px) {
+  #home-section .hero-title { font-size: 26px; }
+}
