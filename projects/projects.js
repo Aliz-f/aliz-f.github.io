@@ -79,4 +79,11 @@ window.trainingProjects = [
     url: "https://countdown.arfadaei.ir/",
     tags: ["React", "Tailwind CSS", "JavaScript", "Responsive Design"],
   },
+  {
+    title: "Taskboard",
+    description:
+      "A responsive React project and task manager with project dashboards, task tracking, and local storage persistence.",
+    url: "https://taskboard.arfadaei.ir/",
+    tags: ["React", "Tailwind CSS", "JavaScript", "Responsive Design"],
+  },
 ];
