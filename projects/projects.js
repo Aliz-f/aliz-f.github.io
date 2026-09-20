@@ -72,4 +72,11 @@ window.trainingProjects = [
     url: "https://investment.arfadaei.ir/",
     tags: ["React", "Tailwind CSS", "JavaScript", "Responsive Design"],
   },
+  {
+    title: "Almost Final Countdown",
+    description:
+      "A React timer-guessing game built for practicing component state, refs, portals, native dialogs, and Tailwind CSS.",
+    url: "https://countdown.arfadaei.ir/",
+    tags: ["React", "Tailwind CSS", "JavaScript", "Responsive Design"],
+  },
 ];
