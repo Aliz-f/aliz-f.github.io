@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#243649"/>
+  <g fill="#e7f0f7">
+    <rect x="50" y="65" width="1100" height="145" rx="24"/>
+    <rect x="50" y="240" width="700" height="415" rx="24"/>
+    <rect x="780" y="240" width="370" height="415" rx="24"/>
+  </g>
+  <g fill="#59899a">
+    <rect x="90" y="105" width="180" height="65" rx="10"/>
+    <rect x="370" y="105" width="180" height="65" rx="10"/>
+    <rect x="650" y="105" width="180" height="65" rx="10"/>
+    <rect x="930" y="105" width="180" height="65" rx="10"/>
+  </g>
+  <g stroke="#496e87" stroke-width="6" fill="none">
+    <path d="M285 138h65m-20-15 20 15-20 15M565 138h65m-20-15 20 15-20 15M845 138h65m-20-15 20 15-20 15"/>
+    <path d="M100 310h600M100 390h600M100 470h600M100 550h600"/>
+    <path d="M200 290v300M340 290v300M480 290v300M620 290v300" stroke-opacity=".3"/>
+  </g>
+  <g fill="#408790">
+    <rect x="110" y="320" width="220" height="40" rx="8"/>
+    <rect x="250" y="400" width="220" height="40" rx="8"/>
+    <rect x="390" y="480" width="220" height="40" rx="8"/>
+    <rect x="530" y="560" width="160" height="40" rx="8"/>
+  </g>
+  <g fill="none" stroke="#496e87" stroke-width="8">
+    <path d="M850 380l115-65 115 65v140l-115 65-115-65zM850 380l115 65 115-65M965 445v140M910 347l115 65"/>
+  </g>
+  <text x="600" y="715" text-anchor="middle" fill="#d2e1ef" font-family="sans-serif" font-size="20" letter-spacing="2">MANUFACTURING WORKFLOW · ILLUSTRATIVE VIEW</text>
+</svg>

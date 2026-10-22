@@ -50,7 +50,7 @@
     link.target = "_blank";
     link.rel = "noopener noreferrer";
     link.textContent = "View live project ↗";
-    link.setAttribute("aria-label", `View ${project.title} live (opens in a new tab)`);
+    link.setAttribute("aria-label", `View live project ↗ — ${project.title} (opens in a new tab)`);
     card.append(link);
     list.append(card);
   }

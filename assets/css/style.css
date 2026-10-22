@@ -8726,7 +8726,7 @@ h1, h2, h3, h4, h5,
     font-size: 16px;
     color: rgba(0, 0, 0, 0.6);
     color: #696969; }
-  .resume-wrap h2 {
+  .resume-wrap :is(h2, h3) {
     font-size: 24px;
     font-weight: 700; }
   .resume-wrap .position {
@@ -8989,9 +8989,9 @@ h1, h2, h3, h4, h5,
     -webkit-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease; }
-    .project .text h3 {
+    .project .text :is(h3, h4) {
       font-size: 20px; }
-      .project .text h3 a {
+      .project .text :is(h3, h4) a {
         color: #fff; }
     .project .text span {
       color: rgba(255, 255, 255, 0.8);
@@ -9753,11 +9753,11 @@ textarea.form-control {
   max-width: 96%;
   opacity: 1; }
 
-.ftco-project .project .text h3 {
+.ftco-project .project .text :is(h3, h4) {
   margin-bottom: 10px; }
 
-.ftco-project .project .text h3 a,
-.ftco-project .project .text h3 {
+.ftco-project .project .text :is(h3, h4) a,
+.ftco-project .project .text :is(h3, h4) {
   color: #fff; }
 
 .ftco-project .project .text p {
@@ -9777,7 +9777,7 @@ textarea.form-control {
 
 a:focus-visible,
 button:focus-visible {
-  outline: 3px solid #f96d00;
+  outline: 3px solid #60a5fa !important;
   outline-offset: 3px; }
 
 @media (max-width: 767.98px) {
@@ -9998,7 +9998,7 @@ a:hover {
   font-weight: 700;
   letter-spacing: .04em; }
 
-.resume-wrap h2 {
+.resume-wrap :is(h2, h3) {
   color: var(--portfolio-ink);
   font-size: 22px;
   font-weight: 700;
@@ -10069,6 +10069,27 @@ a:hover {
   padding-right: 24px !important;
   padding-left: 24px !important; }
 
+.project-group-title {
+  padding: 0 8px;
+  margin: 28px 0 16px;
+  color: var(--portfolio-ink);
+  font-size: 24px;
+  font-weight: 700; }
+
+.skip-link {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  z-index: 10000;
+  padding: 12px 18px;
+  color: #fff;
+  background: #182a3b;
+  transform: translateY(-160%); }
+
+.skip-link:focus {
+  transform: translateY(0);
+  color: #fff; }
+
 .ftco-project .row.no-gutters > [class*="col-"] {
   padding: 8px; }
 
@@ -10085,7 +10106,7 @@ a:hover {
   opacity: 1;
   background: linear-gradient(180deg, rgba(15, 23, 42, .76), rgba(15, 23, 42, .94)); }
 
-.ftco-project .project .text h3 {
+.ftco-project .project .text :is(h3, h4) {
   font-size: 21px;
   font-weight: 700;
   letter-spacing: -.02em; }
@@ -10425,6 +10446,7 @@ button:focus-visible {
   flex-wrap: wrap;
   gap: 12px;
 }
+.resume-wrap p a { text-decoration: underline; text-underline-offset: .15em; }
 #home-section .hero-actions .btn { margin: 0 !important; }
 @media (max-width: 991.98px) {
   /* The collapsed navigation occupies normal document flow. */

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <rect width="1200" height="760" fill="#243649"/>
+  <g fill="#e7f0f7">
+    <rect x="50" y="65" width="700" height="590" rx="24"/>
+    <rect x="780" y="65" width="370" height="275" rx="24"/>
+    <rect x="780" y="370" width="370" height="285" rx="24"/>
+  </g>
+  <g fill="#739aae">
+    <rect x="90" y="125" width="620" height="50" rx="8"/>
+    <path d="M90 205h620v3H90zM90 285h620v3H90zM90 365h620v3H90zM90 445h620v3H90zM90 525h620v3H90zM90 605h620v3H90z"/>
+    <path d="M210 205h3v400h-3zM335 205h3v400h-3zM460 205h3v400h-3zM585 205h3v400h-3z"/>
+  </g>
+  <g fill="#408790">
+    <rect x="105" y="220" width="90" height="50" rx="9"/>
+    <rect x="350" y="300" width="95" height="50" rx="9"/>
+    <rect x="225" y="380" width="95" height="50" rx="9"/>
+    <rect x="475" y="460" width="95" height="50" rx="9"/>
+    <rect x="600" y="540" width="95" height="50" rx="9"/>
+  </g>
+  <g fill="none" stroke="#496e87" stroke-width="9">
+    <circle cx="965" cy="155" r="35"/>
+    <path d="M900 270v-25a65 65 0 01130 0v25z"/>
+    <rect x="865" y="425" width="200" height="175" rx="12"/>
+    <path d="M905 470h120m-120 45h120m-120 45h75"/>
+  </g>
+  <text x="600" y="715" text-anchor="middle" fill="#d2e1ef" font-family="sans-serif" font-size="20" letter-spacing="2">CLINIC OPERATIONS · ILLUSTRATIVE VIEW</text>
+</svg>
