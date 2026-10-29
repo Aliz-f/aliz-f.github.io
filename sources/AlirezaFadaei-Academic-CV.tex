@@ -1,0 +1,73 @@
+\documentclass[9.6pt,a4paper]{article}
+\usepackage[margin=13mm]{geometry}
+\usepackage[scaled=.95]{helvet}
+\usepackage[T1]{fontenc}
+\usepackage[hidelinks]{hyperref}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{microtype}
+\renewcommand{\familydefault}{\sfdefault}
+\pagenumbering{gobble}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+\setlength{\emergencystretch}{2em}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\definecolor{navy}{HTML}{183B56}
+\definecolor{muted}{HTML}{5B6670}
+\definecolor{rule}{HTML}{C8D1D8}
+\newcommand{\cvsection}[1]{\vspace{8pt}{\color{navy}\large\bfseries #1}\par\vspace{2pt}\color{rule}\hrule\color{black}\vspace{4pt}}
+\newcommand{\datecell}[1]{\raggedleft\color{muted}\footnotesize #1}
+\newcommand{\entry}[3]{\noindent\begin{minipage}[t]{.77\linewidth}\textbf{#1}\end{minipage}\hfill\begin{minipage}[t]{.19\linewidth}\datecell{#2}\end{minipage}\par\vspace{1pt}#3\par\vspace{5pt}}
+\newcommand{\tagline}[1]{{\color{muted}\small #1}}
+\begin{document}
+
+{\color{navy}\fontsize{23}{26}\selectfont\bfseries Alireza Fadaei}\par
+\vspace{2pt}
+{\fontsize{11}{14}\selectfont\bfseries Full-Stack Software Engineer \textbar\ Distributed Systems \& Applied AI Research}\par
+\vspace{5pt}
+\tagline{Oulu, Finland \quad•\quad \href{mailto:alizfadaei98@gmail.com}{alizfadaei98@gmail.com} \quad•\quad \href{https://arfadaei.ir}{arfadaei.ir}}\par
+\tagline{\href{https://github.com/aliz-f}{github.com/aliz-f} \quad•\quad \href{https://www.linkedin.com/in/aliz-f/}{linkedin.com/in/aliz-f} \quad•\quad \href{https://orcid.org/0009-0007-1187-7288}{ORCID: 0009-0007-1187-7288}}
+
+\cvsection{Academic Profile}
+Full-stack software engineer and researcher focused on reliable distributed systems, cybersecurity and practical AI. I build React interfaces, Python services and Java endpoint applications, and research federated learning and intrusion detection for resource-constrained environments.
+
+\cvsection{Education}
+\entry{M.Sc. Software Engineering and Information Systems}{2026--Present}{University of Oulu, Finland}
+\entry{M.Sc. Software Engineering}{2022--2025}{Azad University, Najafabad Branch.\newline \textit{Thesis: An Optimized Federated Deep Learning Approach for Intrusion Detection in Dew Computing Environments.}}
+\entry{B.Sc. Computer Engineering}{2017--2022}{University of Isfahan.\newline \textit{Thesis: Design and Implementation of an ADS-B-Based Aircraft Observation System.}}
+
+\cvsection{Peer-Reviewed Publication}
+{\color{navy}\textbf{A Novel Intrusion Detection System for Dew Computing Environments Based on an Enhanced Federated Deep Learning Model}}\par
+Alireza Fadaei, Behrang Barekatain \quad•\quad \textit{The Journal of Supercomputing}, 2026 \quad•\quad Published 16 February 2026\par
+\href{https://doi.org/10.1007/s11227-026-08314-x}{\textbf{DOI: 10.1007/s11227-026-08314-x}} \quad—\quad Lightweight CNN-based federated intrusion detection for resource-constrained dew-computing environments.
+
+\cvsection{Research Interests}
+Federated and distributed learning \quad•\quad Intrusion detection and cybersecurity \quad•\quad Privacy-preserving machine learning \quad•\quad Reliable AI-enabled systems \quad•\quad Edge/IoT security \quad•\quad Software architecture and quality \quad•\quad Research software and scientific data platforms
+
+\cvsection{Selected Research \& Software Projects}
+\entry{Federated Web Attack Detection}{Python \textbar\ TensorFlow \textbar\ Flower}{Implemented and evaluated a lightweight 1D-CNN federated intrusion-detection model under IID and non-IID data partitioning. \href{https://github.com/Aliz-f/edge-web-attack-detection-federated}{\textbf{Source}}.}
+\entry{BrassicaLNC Research Database}{React \textbar\ Django REST}{Built searchable data-exploration interfaces, APIs, data models and platform operations for 1,852 curated lncRNAs from 2,361 RNA-Seq libraries. \href{https://brassica.arfadaei.ir}{\textbf{Live database}}.}
+\entry{ADS-B Aircraft Observation Station}{B.Sc. thesis}{Designed a system to capture, process and present live aircraft observations.}
+
+\newpage
+{\color{navy}\Large\bfseries Alireza Fadaei}\hfill\tagline{Academic CV}\par\vspace{2pt}\color{rule}\hrule\color{black}
+
+\cvsection{Professional Engineering Experience}
+\entry{Full-Stack Software Engineer, Aminyx (Remote)}{2026}{Built React workflows and Python/FastAPI REST services for a B2B trade SaaS. Developed agentic AI sourcing/trust workflows and a Dockerized company/contact enrichment pipeline with crawling, Pydantic validation, optional LLM resolution and resumable checkpoints.}
+\entry{Full-Stack Software Developer / Technical Team Lead, Fardaad (ISTT)}{2022--2024}{Contributed to an enterprise vulnerability- and patch-management platform spanning a security laboratory, repositories, on-premises organisation servers and Java Windows/Linux agents. Work included Python services, queues, CVE enrichment, vulnerability-to-patch policies, administration interfaces, integration testing and GitLab CI/CD. Microsoft security updates applied to Windows devices only.}
+\entry{Full-Stack Research Software Developer, BrassicaLNC; Backend Developer \& Systems Administrator, MetaMenu}{2021--2022}{Developed research platform software; separately developed backend services and cloud-hosted deployment support for a restaurant platform with 3D/AR menus, ordering, delivery and accounting workflows.}
+\entry{Backend Developer, Piranest Team; Python Web Developer, Fapsco Project}{2021--2022; 2020}{Built tour reservation/backend integrations; developed Flask website features and internal tools.}
+\entry{Programming Instructor, Iran TVTO}{2024--2026}{Delivered practical programming and software-development instruction.}
+
+\cvsection{Technical Skills}
+\textbf{Full-stack engineering}\par
+Java (Windows/Linux endpoint agents), React.js, Python, JavaScript, HTML/CSS, FastAPI, Django, Flask, REST APIs.\par
+\textbf{Architecture, security \& delivery}\par
+Distributed/client-server architecture, API contracts, secure communication, queue-based processing, CVE enrichment, vulnerability/patch management, test strategy, integration testing, GitLab CI/CD (Fardaad), GitHub Actions (recent projects), Git, code review, Agile coordination.\par
+\textbf{Data, operations \& practical AI}\par
+PostgreSQL, SQL, Redis, Docker, Docker Compose, Linux, Nginx, LLM APIs, agentic workflows, Codex, Claude Code.
+
+\cvsection{Languages}
+\textbf{English:} IELTS Academic 7.5 \qquad \textbf{Finnish:} Beginner, studying
+\end{document}
