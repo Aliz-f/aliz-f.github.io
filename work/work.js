@@ -16,6 +16,7 @@ const cases = {
 };
 // Keep audit-only source notes out of visitor-facing case studies.
 cases.aminyx.contribution[1]='Integrated agentic sourcing and trust-scoring workflows with LLM-supported steps as part of the product flow.';
+cases.enrichment.lede='A public example related to the Aminyx work, showing a bounded, resumable approach to company and contact enrichment. It does not disclose confidential employer code.';
 cases.teaching.limits='';
 cases.piranest.limits='';
 // Add role- and project-specific implementation detail to the reader-facing contribution lists.
